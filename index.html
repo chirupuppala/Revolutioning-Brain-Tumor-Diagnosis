@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="home">
+    <h1>Welcome to BrainTumorAI</h1>
+    <p>Revolutionizing brain tumor diagnosis with AI</p>
+    <button onclick="location.href='{{ url_for('signup') }}'">Get Started</button>
+</section>
+{% endblock %}
